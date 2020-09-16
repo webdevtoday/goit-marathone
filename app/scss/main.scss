@@ -122,6 +122,10 @@
         font-size: 45px;
         line-height: 89px;
         font-weight: 700;
+        @include media-breakpoint-down(xs) {
+            line-height: 50px;
+            margin: 15px 0;
+        }
     }
     &__desc {
         max-width: 415px;
